@@ -1,6 +1,44 @@
-body{
+body {
     margin: 8px;
     font-family: sans-serif;
-    background-color: black;
-    color: aqua;
+    background-color: #ff8b83;
+    color: rgb(255, 255, 255);
+
+    background-image: url('../fotos/animeb.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header .inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.linea{
+
+    border: none;
+    height: 5px;
+    width: 95%;
+    margin: 0px auto;
+    background: linear-gradient(to right, transparent, #ffffff, transparent);
+
+}
+
+.info p{
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px, 40px;
 }
